@@ -13,9 +13,9 @@ if __name__ == '__main__':
 
   #Prompt the user for a Fahrenheit temperature
 
-tempF = input("Input temperature in Farenheit: ")
+tempF = input("Input temperature in Fahrenheit: ")
 
-  #Convert that temperature to celsius, rounding to 1 decimal percision
+  #Convert that temperature to Celsius, rounding to 1 decimal precision
 
 floatF = float(tempF)
 tempC = round(((5*(floatF-32))/9),1)
@@ -23,6 +23,6 @@ tempK = round((tempC+273.15),1)
 
   # Output converted temperature (Celsius and Kelvin).
 
-print(tempF, "degrees Farenheit is ", tempC, "degrees Celsius.")
+print(tempF, "degrees Fahrenheit is ", tempC, "degrees Celsius.")
   
-print(tempF, "degrees Farenheit is ", tempK, "degrees Kelvin.")
+print(tempF, "degrees Fahrenheit is ", tempK, "degrees Kelvin.")
